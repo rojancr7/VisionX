@@ -1,0 +1,55 @@
+name: vision_x
+description: "VisionX Camera - A fully functional camera app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Camera
+  camera: ^0.11.0+2
+
+  # Storage
+  path_provider: ^2.1.5
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Gallery - use gal package which is more modern
+  gal: ^2.3.0
+
+  # Video
+  video_player: ^2.9.3
+
+  # Utils
+  intl: ^0.20.2
+
+  # State management
+  provider: ^6.1.2
+
+  # UUID for unique filenames
+  uuid: ^4.5.1
+
+  # Image processing for the photo editor (pure Dart, isolate-safe)
+  image: ^4.5.0
+
+  # System share sheet for photo sharing
+  share_plus: ^12.0.1
+
+  # Accelerometer for the horizon level indicator
+  sensors_plus: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
